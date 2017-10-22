@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "node":"node app.js"
+    "node": "node app.js"
   },
   "author": "Anant Pillai",
   "license": "ISC",
@@ -14,5 +14,14 @@
     "express": "^4.16.2",
     "hbs": "^4.0.1",
     "request": "^2.83.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DragonRaider/Node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DragonRaider/Node/issues"
+  },
+  "homepage": "https://github.com/DragonRaider/Node#readme"
 }
