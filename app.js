@@ -3,8 +3,8 @@ const hbs = require("hbs");
 const port = process.env.PORT || 5396;
 
 var app = express();
-var index = require("./routes/index.js");
-var temp = require("./routes/temp.js");
+var index = require(__dirname+"/routes/index.js");
+var temp = require(__dirname+"/routes/temp.js");
 
 app.set("view engine","hbs");
 
